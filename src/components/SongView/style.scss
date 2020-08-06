@@ -1,0 +1,89 @@
+@import '../../mixins.scss';
+
+.songView {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #fff;
+  overflow: hidden;
+  max-width: 1100px;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  padding: 30px;
+  @include for-desktop {
+    position: sticky;
+    display: grid;
+    grid-template-columns: 1fr 1fr 3fr 4fr;
+    grid-gap: 10px;
+    overflow: visible;
+    align-items: center;
+    justify-items: center;
+    max-height: 120px;
+    box-shadow: 0px -15px 22px -2px rgba(199, 195, 199, 1);
+    margin-top: 30px;
+    padding: 20px;
+  }
+  h2 {
+    text-align: center;
+    margin: 0;
+  }
+  .cover {
+    box-shadow: 6px 7px 17px -1px rgba(87, 85, 87, 1);
+    @include for-desktop {
+      max-height: 100px;
+    }
+  }
+  .topButtons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    @include for-desktop {
+      div:first-child {
+        display: none;
+      }
+      width: auto;
+      display: block;
+    }
+  }
+}
+.duration {
+  width: 100%;
+  @include for-desktop {
+    grid-column: 4 / 5;
+  }
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  div {
+    margin: 0px 10px;
+  }
+}
+
+.time {
+  display: flex;
+  justify-content: space-between;
+  color: gray;
+  font-size: 12px;
+  @include for-desktop {
+    margin-top: -20px;
+  }
+}
+
+.progressBar {
+  border: 2px solid lightgray;
+  width: 100%;
+  position: relative;
+  .progress {
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    border: 2px solid #8a2be2;
+    width: 30%;
+  }
+}

@@ -1,0 +1,70 @@
+@import './mixins.scss';
+
+.playlist {
+  display: grid;
+  max-width: 1100px;
+  margin: 0 auto;
+  background: #fff;
+  @include for-desktop {
+    // box-shadow: 0px 0px 111px 30px rgba(199, 195, 199, 1);
+    min-height: 100vh;
+  }
+}
+.playlist__song {
+  font-family: Cantarell;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border-radius: 8px;
+  margin: 0 10px;
+  &.playing {
+    background-color: #f8f8ff;
+    // color: #F8F8FF
+  }
+}
+
+.title {
+  font-weight: 700;
+}
+
+.artist {
+  font-size: 12px;
+}
+
+.topCover {
+  box-shadow: 0px 4px 5px 0px rgba(240, 240, 240, 1);
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  img {
+    max-width: 200px;
+  }
+}
+
+.audio {
+  padding: 10px;
+  background: #ffffff;
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px -4px 5px 0px rgba(240, 240, 240, 1);
+  font-size: 14px;
+  margin-top: 30px;
+  @include for-desktop {
+    display: none;
+  }
+  p {
+    padding: 0px 5px;
+    text-align: center;
+  }
+}
