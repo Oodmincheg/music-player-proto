@@ -1,16 +1,16 @@
 import React from 'react';
 import Button from '../Button';
-import BackIcon from '../../back.svg';
-import ForwardIcon from '../../forward.svg';
-import pressedBack from '../../pressedBack.svg';
-import pressedForward from '../../fast-forward-pressed.svg';
-import PlayButtonIcon from '../../play-button.svg';
-import PauseButtonIcon from '../../pause.svg';
-import arrow from '../../arrow.svg';
-import arrowPressed from '../../arrowPressed.svg';
 
-import Heart from '../../heart.svg';
-import GreyHeart from '../../greyHeart.svg';
+import BackIcon from '../../img/back.svg';
+import ForwardIcon from '../../img/forward.svg';
+import pressedBack from '../../img/pressedBack.svg';
+import pressedForward from '../../img/fast-forward-pressed.svg';
+import PlayButtonIcon from '../../img/play-button.svg';
+import PauseButtonIcon from '../../img/pause.svg';
+import arrow from '../../img/arrow.svg';
+import arrowPressed from '../../img/arrowPressed.svg';
+import Heart from '../../img/heart.svg';
+import GreyHeart from '../../img/greyHeart.svg';
 
 import './style.scss';
 

@@ -1,18 +1,20 @@
 import React, { useState, useEffect } from 'react';
+
 import Button from './components/Button';
 import SongView from './components/SongView';
-import cover from './albumCover.jpg';
-import album from './mockData.js';
-import PlayButtonIcon from './play-button.svg';
-import PauseButtonIcon from './pause.svg';
-import Heart from './heart.svg';
-import GreyHeart from './greyHeart.svg';
+import albumData from './mockData.js';
+
+import cover from './img/albumCover.jpg';
+import PlayButtonIcon from './img/play-button.svg';
+import PauseButtonIcon from './img/pause.svg';
+import Heart from './img/heart.svg';
+import GreyHeart from './img/greyHeart.svg';
 
 import './App.scss';
 
 function App() {
   const [currentSong, setCurrentSong] = useState({
-    ...album[0],
+    ...albumData[0],
     paused: true,
     inFavorites: false,
   });
@@ -33,7 +35,7 @@ function App() {
       <div className="topCover">
         <img src={cover} alt="" />
       </div>
-      {album.map((song) => {
+      {albumData.map((song) => {
         const { id, title, artist } = song;
         return (
           <div
@@ -49,7 +51,6 @@ function App() {
               <p className="title">{title}</p>
               <p className="artist">{artist}</p>
             </div>
-            {/* <PlayButton pressed={currentSong?.id === id} /> */}
           </div>
         );
       })}
