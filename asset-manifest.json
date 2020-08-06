@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/music-player-proto/static/css/main.0a222da1.chunk.css",
+    "main.js": "/music-player-proto/static/js/main.1929777a.chunk.js",
+    "main.js.map": "/music-player-proto/static/js/main.1929777a.chunk.js.map",
+    "runtime-main.js": "/music-player-proto/static/js/runtime-main.e85c1dde.js",
+    "runtime-main.js.map": "/music-player-proto/static/js/runtime-main.e85c1dde.js.map",
+    "static/js/2.916aa980.chunk.js": "/music-player-proto/static/js/2.916aa980.chunk.js",
+    "static/js/2.916aa980.chunk.js.map": "/music-player-proto/static/js/2.916aa980.chunk.js.map",
+    "index.html": "/music-player-proto/index.html",
+    "precache-manifest.caf869647f40333f2e47d848363651a2.js": "/music-player-proto/precache-manifest.caf869647f40333f2e47d848363651a2.js",
+    "service-worker.js": "/music-player-proto/service-worker.js",
+    "static/css/main.0a222da1.chunk.css.map": "/music-player-proto/static/css/main.0a222da1.chunk.css.map",
+    "static/js/2.916aa980.chunk.js.LICENSE.txt": "/music-player-proto/static/js/2.916aa980.chunk.js.LICENSE.txt",
+    "static/media/albumCover.jpg": "/music-player-proto/static/media/albumCover.f7c15ffc.jpg",
+    "static/media/arrow.svg": "/music-player-proto/static/media/arrow.48e2ffe0.svg",
+    "static/media/arrowPressed.svg": "/music-player-proto/static/media/arrowPressed.24730fb3.svg",
+    "static/media/back.svg": "/music-player-proto/static/media/back.322cef78.svg",
+    "static/media/index.css": "/music-player-proto/static/media/background.5cb46261.jpg",
+    "static/media/fast-forward-pressed.svg": "/music-player-proto/static/media/fast-forward-pressed.00991dd0.svg",
+    "static/media/forward.svg": "/music-player-proto/static/media/forward.d9e57deb.svg",
+    "static/media/greyHeart.svg": "/music-player-proto/static/media/greyHeart.39e478b0.svg",
+    "static/media/heart.svg": "/music-player-proto/static/media/heart.4e01da79.svg",
+    "static/media/pause.svg": "/music-player-proto/static/media/pause.4a3a3c57.svg",
+    "static/media/play-button.svg": "/music-player-proto/static/media/play-button.c9c71862.svg",
+    "static/media/pressedBack.svg": "/music-player-proto/static/media/pressedBack.a37d88c1.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e85c1dde.js",
+    "static/js/2.916aa980.chunk.js",
+    "static/css/main.0a222da1.chunk.css",
+    "static/js/main.1929777a.chunk.js"
+  ]
+}
